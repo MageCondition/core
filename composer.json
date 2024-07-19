@@ -1,0 +1,25 @@
+{
+    "name": "mage-condition/core",
+    "description": "Core module for MageCondition vendor",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Oleksandr",
+            "email": "wincondition2911@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageCondition\\Core\\": ""
+        }
+    }
+}
