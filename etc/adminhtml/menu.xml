@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MageCondition_Core::menu"
+             title="Mage Condition"
+             module="MageCondition_Core"
+             translate="title"
+             sortOrder="60"
+             resource="MageCondition_Core::menu"/>
+
+        <add id="MageCondition_Core::general" title="General" translate="title" module="MageCondition_Core" sortOrder="450" parent="MageCondition_Core::menu" resource="MageCondition_Core::menu"/>
+        <add id="MageCondition_Core::configuration"
+             title="Configuration"
+             module="MageCondition_Core"
+             translate="title"
+             sortOrder="500"
+             action="adminhtml/system_config/edit/section/magecondition"
+             parent="MageCondition_Core::general"
+             resource="MageCondition_Core::menu"/>
+    </menu>
+</config>

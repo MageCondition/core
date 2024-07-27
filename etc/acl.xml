@@ -3,7 +3,9 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="MageCondition_Core::magecondition" title="MageCondition" translate="title" sortOrder="5" />
+                <resource id="MageCondition_Core::magecondition" title="MageCondition" translate="title" sortOrder="5">
+                    <resource id="MageCondition_Core::menu" title="Menu" translate="title" sortOrder="5"/>
+                </resource>
             </resource>
         </resources>
     </acl>
