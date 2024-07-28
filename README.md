@@ -11,4 +11,4 @@ Do not delete or disable this module if plan to receive updates
 
 ## License
 
-This module is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This module is licensed under the Open Software License (OSL). See the [LICENSE](https://github.com/MageCondition/core/blob/main/LICENSE.txt) file for more details.
